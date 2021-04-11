@@ -1,0 +1,66 @@
+.home {
+
+    &__container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .slider-element {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-image: url('../img/home/good_ideas.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &__label {
+            display: flex;
+            justify-content: space-between;
+            width: 863px;
+            padding: 30px 45px;
+            background-color: rgba(255, 255, 255, 0.3);
+
+            .tagline-left {
+                display: flex;
+                flex-direction: column;
+
+                &__text {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 137px;
+                    font-size: 60px;
+                    color: rgb(116, 199, 213);
+                    line-height: 0.9;
+                    text-align: right;
+
+                    span {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            .tagline-right {
+                display: flex;
+                justify-content: center;
+
+                &__text {
+                    height: 137px;
+                    font-size: 140px;
+                    font-weight: 700;
+                    line-height: 0.9;
+                    color: rgb(116, 199, 213);
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.slider-arrow {
+    // margin-left: 25px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}

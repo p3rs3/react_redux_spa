@@ -1,0 +1,107 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/services/services_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1140px;
+        text-align: center;
+        color: white;
+    }
+
+    &__top-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 80px;
+        color: white;
+
+        h2 {
+            font-size: 60px;
+            font-weight: 100;
+            margin-bottom: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .text {
+            font-size: 22px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+
+            span {
+                color: rgb(255, 204, 207);
+            }
+        }
+
+        .subtext {
+            font-size: 14px;
+            color: rgb(255, 204, 207);
+            text-align: center;
+        }
+    }
+
+    &__bottom-content {
+       
+    }
+
+    &__list {   
+        display: flex;
+        justify-content: space-between;
+        column-gap: 18px;
+        list-style: none;
+    }
+
+    &__element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 40px;
+        background-color: rgba(200, 83, 90, 0.8);
+
+        .element-contour {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 143px;
+            height: 143px;
+            margin-bottom: 25px;
+            border-radius: 50%;
+            border-color: white;
+            border-style: solid;
+            border-width: 4px;
+
+            .element-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 125px;
+                height: 125px;
+                background-color: white;
+                border-radius: 50%;
+            }
+        }
+
+        .element-title {
+            margin-bottom: 25px;
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .element-text {
+            font-size: 14px;
+            color: white;
+        }
+    }
+}

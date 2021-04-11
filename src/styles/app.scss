@@ -1,0 +1,26 @@
+@import './header/header.scss';
+@import './home/home.scss';
+@import './services/services.scss';
+@import './about/about.scss';
+@import './work/work.scss';
+@import './contacts/contacts.scss';
+
+body {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    overflow-x: hidden;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 1140px;
+}
